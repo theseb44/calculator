@@ -1,0 +1,102 @@
+*{
+	font-family: 'Orbitron', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(90deg, rgba(255, 198, 88, 0.74) 0%, rgba(255, 250, 139, 0.73) 50.31%, #FFC658 100%);
+	
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+	
+}
+
+.marco{
+	background-color:#68E1FD;
+    width: 305px;
+    height:400px;
+    padding:15px;
+    border-radius:25px;
+    color:#093F68;
+	border-color: #093F68;
+	border: #093F68 5px solid;
+	box-shadow: #093F68 10px 10px 0px;
+	animation: animacion ease-in 1s infinite alternate;
+    
+}
+
+.marco td input[type="button"]{
+	width:50px;
+	height:50px;
+	border-radius:5px;
+	font-size:20px;
+    background: #FFBC0E;
+	border-color: black;
+	border: #093F68 3px solid;
+	cursor: pointer;
+
+
+}
+
+#pantalla {
+	text-align:right;
+	font-size:20px;
+	margin-bottom:20px;
+	width:250px;
+	height:70px;
+	line-height:100px;
+	background-color:#F56132;
+	border: #093F68 5px solid;
+	color: white;
+	font-size: 45px;
+	border-radius: 5px;
+}
+
+#body{
+	padding-left: 300px;
+	padding-top: 300px;
+	
+}
+
+.boton{
+	
+	color: #093F68;
+	font-weight: bold;
+
+}
+
+
+
+
+@keyframes animacion{
+    0%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.04);
+    }
+}
+
+.marco td input:active{
+	background-color: rgb(216, 216, 216);
+
+}
+
+#vector2{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+}
+
+#vector1{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	
+	
+}

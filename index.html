@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link type="text/css" rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="inicio();">
+  <!-- version: los eventos y el manejo se hacen completmente en javascript, botones con id -->
+  <form name="f1">
+    <div class="container">
+      <table class="marco">
+
+        <tr>
+          <td colspan="4"><input type="number" id="pantalla"></td>
+        </tr>
+        <tr>
+          <td><input type="button" id="reset" value="C" class="boton"></td>
+          <td><input type="button" id="sum" value="+" class="boton"></td>
+          <td><input type="button" id="resta" value="-" class="boton"></td>
+          <td><input type="button" id="div" value="/" class="boton"></td>
+  
+        </tr>
+        <tr>
+          <td><input type="button" id="siete" value="7" class="boton"></td>
+          <td><input type="button" id="ocho" value="8" class="boton"></td>
+          <td><input type="button" id="nueve" value="9" class="boton"></td>
+          <td><input type="button" id="mul" value="*" class="boton"></td>
+  
+        </tr>
+        <tr>
+          <td><input type="button" id="cuatro" value="4" class="boton"></td>
+          <td><input type="button" id="cinco" value="5" class="boton"></td>
+          <td><input type="button" id="seis" value="6" class="boton"></td>
+          <td><input type="button" id="raiz" value="&radic;" class="boton"></td>
+  
+        </tr>
+        <tr>
+          <td><input type="button" id="uno" value="1" class="boton"></td>
+          <td><input type="button" id="dos" value="2" class="boton"></td>
+          <td><input type="button" id="tres" value="3" class="boton"></td>
+          <td><input type="button" id="factor" value="!" class="boton"></td>
+        </tr>
+  
+        <tr>
+          <td><input type="button" id="cero" value="0" class="boton"></td>
+          <td><input type="button" id="1/x" value="1/x" class="boton"></td>
+          <td><input type="button" id="^" value="^" class="boton"></td>
+          <td><input type="button" id="igual" value="=" class="boton"></td>
+        </tr>
+  
+      </table>
+  </div>
+  </form>
+    
+  <div>
+    <img src="ilustraciones/Vector1.svg" alt="" id="vector1">
+    <img src="ilustraciones/Vector2.svg" alt="" id="vector2">
+  </div>     
+    
+
+  <script src="calculadora.js"></script>
+</body>
+
+</html>
